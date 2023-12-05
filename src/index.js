@@ -28,8 +28,8 @@ app.get("/users", async (req, res) => {
 });
 
 //rota para buscar um usuário pelo nome
-//app.get("/user/:nome", async (req, res) => {
-//});
+app.get("/user/:nome", async (req, res) => {
+});
 
 // Inicie o servidor na porta especificada
 app.listen(port, () => {
