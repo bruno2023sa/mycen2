@@ -23,11 +23,11 @@ app.post("/item", async (req, res) => {
   return res.sendStatus(201);
 });
 
-//rota para listar todos os usuários
+//rota para listar todos os usuários > 
 app.get("/users", async (req, res) => {
 });
 
-//rota para buscar um usuário pelo nome
+//rota para buscar um usuário pelo nome > 
 app.get("/user/:nome", async (req, res) => {
 });
 
